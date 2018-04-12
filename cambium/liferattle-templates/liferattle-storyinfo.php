@@ -6,14 +6,16 @@
 */
 ?>
 
+<div class="lr-storyInfo">
+
 <?php
     $storyTitle = get_field( "story_title" );
-    $storyExcerpt = get_field("story_excerpt");
+    $storyExcerpt = get_field( "story_excerpt" );
 
 
     if( $storyTitle ) { ?>
         <div class="">
-            <h3>In this podcast</h3>
+            <h3 class="lr-innerHeading lr-sectionHeading">In this podcast</h3>
             <h4><?php echo $storyTitle; ?></h4>
         </div>
 
@@ -22,3 +24,5 @@
         <div class=""><?php echo $storyExcerpt; ?></div>
     <?php }
 ?>
+
+</div>

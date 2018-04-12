@@ -24,4 +24,4 @@
 	get_template_part( 'template-parts/site-header' );
 	?>
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content lr-site-content">

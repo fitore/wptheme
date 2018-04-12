@@ -162,6 +162,9 @@ function cambium_scripts() {
 	// Fontawesome
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css' );
 
+	// Fontawesome
+	wp_enqueue_style( 'life-rattle', get_template_directory_uri() . '/css/life-rattle.css' );
+
 	// Fonts
 	wp_enqueue_style( 'cambium-fonts', cambium_fonts_url(), array(), null );
 
@@ -190,3 +193,8 @@ require get_template_directory() . '/inc/custom-header.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Search custom fields additions.
+ */
+require get_template_directory() . '/liferattle-templates/liferattle-search.php';

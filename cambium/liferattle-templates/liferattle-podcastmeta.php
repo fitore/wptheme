@@ -6,6 +6,8 @@
 */
 ?>
 
+<div class="lr-podcastMeta">
+
 <?php
 
     $podcast_date = get_field( "podcast_date" );
@@ -14,19 +16,20 @@
 
     if( $podcast_date ) { ?>
 
-        <div class=""><?php echo $podcast_date; ?></div>
+        <p class="lr-podcast-date">Presented on: <strong><?php echo $podcast_date; ?></strong></p>
 
     <?php }
 
     if( $podcast_host ) { ?>
 
-        <div class="">Hosted by: <?php echo $podcast_host; ?></div>
+        <p class="lr-podcast-host">Hosted by: <strong><?php echo $podcast_host; ?></strong></p>
 
     <?php }
 
     if( $podcast_show_number ) { ?>
 
-        <div class="">Show number: <?php echo $podcast_show_number; ?></div>
+        <p class="lr-podcast-show">Show number: <strong><?php echo $podcast_show_number; ?></strong></p>
 
     <?php }
 ?>
+</div>

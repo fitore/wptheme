@@ -18,7 +18,7 @@
 				<?php if ( 'post' === get_post_type() ) : // For Posts ?>
 				<div class="entry-meta entry-meta-header-after">
 					<?php
-					cambium_posted_by();
+					//cambium_posted_by();
 					cambium_posted_on();
 					cambium_sticky_post();
 					?>

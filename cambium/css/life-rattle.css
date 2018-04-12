@@ -1,0 +1,42 @@
+/*!
+ * Theme Name: Cambium
+ * Description: Used to style custom Life Rattle theme
+ */
+
+.lr-site-content,
+.lr-site-content h1, h2, h3, h4, h5, h6,
+.lr-site-content p {
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+ .lr-post-content p {
+    font-size: 1rem;
+ }
+
+.lr-podcastMeta {
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+}
+
+.lr-podcastMeta p {
+    margin: 0;
+}
+
+.lr-writerInfo {
+
+}
+
+.lr-writerBio {
+
+}
+
+.lr-post-content .entry-content .lr-innerHeading {
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.lr-post-content .entry-content .lr-sectionHeading {
+    border-bottom: 1px solid #CCC;
+    margin: 2rem 0;
+    padding-bottom: 0.5rem;
+}

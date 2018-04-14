@@ -15,7 +15,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col">
 
-					<header class="page-header">
+					<header class="page-header lr-page-header">
 						<?php
 						if ( have_posts() ) :
 							the_archive_title( '<h1 class="page-title">', '</h1>' );

@@ -20,6 +20,7 @@ get_header(); ?>
 
 							<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
+							<?php get_template_part( 'template-parts/author', 'bio' ); ?>
 
 						<?php endwhile; // end of the loop. ?>
 						</div><!-- .post-wrapper -->

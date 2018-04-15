@@ -7,6 +7,20 @@ body {
     background: white !important;
 }
 
+.lr-breadcrumbs {
+    font-size: 0.8rem;
+    max-width: 85%;
+    margin: 1rem auto;
+}
+
+.lr-site-content a {
+    text-decoration: underline;
+}
+.lr-site-content a:hover,
+.lr-site-content a:focus {
+    text-decoration: none;
+}
+
 .lr-site-content .post-wrapper-archive .post-wrapper-hentry {
     border: 1px solid #f0f0f0;
 }
@@ -62,12 +76,30 @@ body {
     width: 100%;
 }
 
-.lr-podcastMeta {
+.lr-podcastMeta,
+.lr-bookMeta {
     font-size: 0.9rem;
     margin: 1.5rem 0;
 }
 
 .lr-podcastMeta p {
+    margin: 0;
+}
+
+.lr-bookMeta {
+    border: 1px solid #f0f0f0;
+    display: flex;
+    padding: 1rem;
+}
+
+.lr-bookMeta .lr-bookInfo {
+    margin-left: 1.5rem;
+}
+
+.lr-bookMeta .lr-bookMetap,
+.lr-bookMeta .cipheader,
+.lr-bookMeta .cipdata {
+    font-size: 0.9rem;
     margin: 0;
 }
 

@@ -25,3 +25,4 @@
 	?>
 
 	<div id="content" class="site-content lr-site-content">
+        <?php get_template_part('liferattle-templates/liferattle-breadcrumbs'); ?>

@@ -21,7 +21,11 @@
 					cambium_posted_on();
 					cambium_post_edit_link();
 					?> -->
+
+					<?php get_template_part('liferattle-templates/lferattle-bookmeta'); ?>
+
 					<?php get_template_part('liferattle-templates/liferattle-podcastmeta'); ?>
+
 				</div><!-- .entry-meta -->
 			</div><!-- .entry-header-wrapper -->
 

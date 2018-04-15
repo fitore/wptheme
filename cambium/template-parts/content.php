@@ -20,6 +20,7 @@
 					<?php
 					//cambium_posted_by();
 					cambium_posted_on();
+					cambium_post_first_category();
 					cambium_sticky_post();
 					?>
 				</div><!-- .entry-meta -->

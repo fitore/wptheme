@@ -3,35 +3,52 @@
  * Description: Used to style custom Life Rattle theme
  */
 
+body {
+    background: white !important;
+}
+
+.lr-site-content .post-wrapper-archive .post-wrapper-hentry {
+    border: 1px solid #f0f0f0;
+}
+
 .lr-site-content,
 .lr-site-content h1, h2, h3, h4, h5, h6,
 .lr-site-content p {
     font-family: Verdana, Arial, Helvetica, sans-serif !important;
 }
 
-.lr-content-area .entry-content {
+.lr-site-content .lr-page-header {
+    text-align: left;
+    width: 100% !important;
+}
+
+.lr-site-content .lr-flex {
     display: flex;
 }
 
-.lr-content-area .lr-content-radio {
+.lr-site-content .lr-content-rightcol {
     flex: 1 1 300px;
     margin-left: 1rem;
 }
 
-
-.lr-content-area .lcp_catlist {
+.lr-site-content .lr-content-leftcol {
     display: flex;
     flex: 1 1 70%;
     margin: 0;
 }
 
-.lr-content-area .lcp_catlist li {
-    list-style: none;
+.lr-site-content .lcp_catlist {
+    list-style-type: none;
+    margin: 0;
     flex: 1 1 270px;
     padding: 0 1.5rem 0 0;
 }
 
-.lr-content-area .lcp_catlist .catdate {
+.lr-site-content .lcp_catlist li {
+    margin: 0 0 2rem 0;
+}
+
+.lr-site-content .lcp_catlist .catdate {
     font-size: 0.8rem;
     font-weight: bold;
 }
@@ -39,6 +56,11 @@
  .lr-post-content p {
     font-size: 1rem;
  }
+
+.lr-writerList {
+    margin: 1rem 0;
+    width: 100%;
+}
 
 .lr-podcastMeta {
     font-size: 0.9rem;
@@ -57,7 +79,7 @@
 
 }
 
-.lr-post-content .entry-content .lr-innerHeading {
+.lr-post-content .lr-innerHeading {
     margin: 1rem 0;
     font-weight: bold;
 }
@@ -68,48 +90,50 @@
     padding-bottom: 0.5rem;
 }
 
+.lr-author {
+    margin: 0;
+}
+
 .lr-author .author-heading {
     padding: 0 !important;
     width: 100% !important;
 }
 
-.lr-page-header {
-    text-align: left;
-}
 
-.header-menu .lr-menu-events,
-.header-menu .lr-menu-festival,
-.header-menu .lr-menu-radio,
-.header-menu .lr-menu-writers,
-.header-menu .lr-menu-publishing {
+.header-menu .lr-menu-events a,
+.header-menu .lr-menu-festival a,
+.header-menu .lr-menu-radio a,
+.header-menu .lr-menu-writers a,
+.header-menu .lr-menu-publishing a {
     background-repeat: no-repeat;
     background-position: center 0;
-    height: 45px;
+    display: block;
+    height: 60px;
     padding-top: 50px;
 }
 
-.lr-menu-publishing {
-    background-image: url('/wordpress/wp-content/uploads/2018/04/publishingthumbnail.jpg');
+.lr-menu-publishing a {
+    background-image: url('../liferattle-templates/images/publishingthumbnail.jpg');
 }
-.lr-menu-radio {
-    background-image: url('/wordpress/wp-content/uploads/2018/04/radiothumbnail.jpg');
+.lr-menu-radio a {
+    background-image: url('../liferattle-templates/images/radiothumbnail.jpg');
 }
-.lr-menu-writers {
-    background-image: url('/wordpress/wp-content/uploads/2018/04/writersthumbnail.jpg');
+.lr-menu-writers a {
+    background-image: url('../liferattle-templates/images/writersthumbnail.jpg');
 }
-.lr-menu-festival {
-    background-image: url('/wordpress/wp-content/uploads/2018/04/festivalthumbnail.jpg');
+.lr-menu-festival a {
+    background-image: url('../liferattle-templates/images/festivalthumbnail.jpg');
 }
-.lr-menu-events {
-    background-image: url('/wordpress/wp-content/uploads/2018/04/eventsthumbnail.jpg');
+.lr-menu-events a {
+    background-image: url('../liferattle-templates/images/eventsthumbnail.jpg');
 }
 
 
-.site-header-menu-responsive.show .lr-menu-events,
-.site-header-menu-responsive.show .lr-menu-festival,
-.site-header-menu-responsive.show .lr-menu-radio,
-.site-header-menu-responsive.show .lr-menu-writers,
-.site-header-menu-responsive.show .lr-menu-publishing {
+.site-header-menu-responsive.show .lr-menu-events a,
+.site-header-menu-responsive.show .lr-menu-festival a,
+.site-header-menu-responsive.show .lr-menu-radio a,
+.site-header-menu-responsive.show .lr-menu-writers a,
+.site-header-menu-responsive.show .lr-menu-publishing a {
     background: none;
     height: auto;
     padding: 0;

@@ -1,4 +1,4 @@
-<?php /* Template Name: LifeRattleHome */ ?>
+<?php /* Template Name: LifeRattleOneCol */ ?>
 
 <?php
 
@@ -12,12 +12,12 @@ get_header(); ?>
                 <section id="primary" class="content-area lr-contentarea">
                     <main id="main" class="site-main" role="main">
 
-                        <div id="post-wrapper" class="post-wrapper post-wrapper-single post-wrapper-single-page">
-                        <?php while ( have_posts() ) : the_post(); ?>
+                        <div id="post-wrapper" class="lr-postwrapper post-wrapper post-wrapper-single post-wrapper-single-page">
+                            <?php while ( have_posts() ) : the_post(); ?>
 
-                            <?php get_template_part( 'template-parts/content', 'page' ); ?>
+                                <?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-                        <?php endwhile; // end of the loop. ?>
+                            <?php endwhile; // end of the loop. ?>
                         </div><!-- .post-wrapper -->
 
                     </main><!-- #main -->

@@ -1,0 +1,22 @@
+<h3 class="lr-heading">About the Program</h3>
+The Life Rattle Radio Program, in its twenty-seventh year, has broadcast almost 1400 show featuring more than 2100 stories by more than 500 new writers.
+
+<a href="http://liferattle.ca/feed.xml">Subscribe to our podcast</a>
+
+The enterprise began small, on CKLN-FM 88.1 community radio. In the first three shows we played our own stories. In those early days we searched for writers every week, sometimes having to read from books we had on-hand when we couldn’t find anyone with a story ready. That has changed. We have a backlog of people who want to read their stories.
+
+Life Rattle now "broadcasts" our radio program through podcasts. We have loyal listeners who subscribe to our RSS feed, exciting new writers and a corps of writers who return again and again.
+
+We had little idea of the success we would meet when we began. Who could have imagined this obscure radio program would collect the astounding quantity and quality of material that it has?
+
+For info about the Life Rattle Radio program contact <a href="mailto:info@liferattle.ca">info@liferattle.ca</a>
+
+If you have a story you would like to have considered for the program, please send it to <a href="mailto:submissions@liferattle.ca">submissions@liferattle.ca</a>
+
+
+[catlist year=2018 name=podcast date=yes date_tag=p date_class=catdate orderby=date conditional_title="2018 Podcasts" pagination=yes numberposts=4 excerpt=yes ]
+
+[catlist year=2017 name=podcast date=yes date_tag=p date_class=catdate orderby=date conditional_title="2017 Podcasts" pagination=yes numberposts=4 excerpt=yes ]
+
+[catlist year=2016 name=podcast date=yes date_tag=p date_class=catdate orderby=date conditional_title="2016 Podcasts" pagination=yes numberposts=4 excerpt=yes ]
+

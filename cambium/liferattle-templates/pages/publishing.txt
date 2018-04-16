@@ -1,0 +1,11 @@
+[catlist name=book date=yes date_tag=p date_class=catdate orderby=date conditional_title="Recent Books" pagination=yes numberposts=4 excerpt=yes excerpt_size=25]
+
+Life Rattle Press publishes and markets on a small-scale, non-profit basis, high quality editions of new writing: collections by single or multiple authors, collections of the stories read at the annual Totally Unknown Writers Festival, and collections of stories published by new publishers.
+
+The authors and their stories published in these collections come out of the richness of the cultural mix of the Toronto community. This is the type of writing that Life Rattle wants to represent. These writers show lives and experiences that are under-represented in literary media. Life Rattle endeavours to bring out material that nobody else is bringing out. We look for talent in the community and bring it to the light.
+
+[catlist year=2018 name=book date=yes date_tag=p date_class=catdate orderby=date conditional_title="2018 Publications" pagination=yes numberposts=4 excerpt=yes ]
+
+[catlist year=2017 name=book date=yes date_tag=p date_class=catdate orderby=date conditional_title="2017 Publications" pagination=yes numberposts=4 excerpt=yes ]
+
+[catlist year=2016 name=book date=yes date_tag=p date_class=catdate orderby=date conditional_title="2016 Publications" pagination=yes numberposts=4 excerpt=yes ]

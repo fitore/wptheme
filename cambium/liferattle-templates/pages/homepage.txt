@@ -1,0 +1,16 @@
+<h2>About Life Rattle Press</h2>
+Through Life Rattle Press and the Life Rattle radio program, Life Rattle searches out, edits, records, broadcasts and publishes experience based prose by new writers from a variety of communities in the Toronto area. <a href="http://localhost:8888/wordpress/about/">Read more &raquo;</a>
+
+&nbsp;
+
+[catlist name=podcast date=yes date_tag=p date_class=catdate orderby=date pagination=yes numberposts=4 excerpt=yes excerpt_size=25 catlink=yes catlink_string="Recent Podcasts" catlink_tag=h3 catlink_class="lr-catlinkHeading"]
+
+&nbsp;
+
+[catlist name=book date=yes date_tag=p date_class=catdate orderby=date pagination=yes numberposts=4 excerpt=yes excerpt_size=25 catlink=yes catlink_string="Recent Books" catlink_tag=h3 catlink_class="lr-catlinkHeading"]
+
+&nbsp;
+
+[catlist post_type="page" class="lcp_catlist lr-catlist-pages" title_class="lr-catlink-page" conditional_title="More from Us"]
+
+&nbsp;

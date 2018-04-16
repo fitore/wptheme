@@ -10,18 +10,6 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<div class="post-content-wrapper post-content-wrapper-single post-content-wrapper-single-page">
 
-			<div class="entry-header-wrapper">
-				<header class="entry-header">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-				</header><!-- .entry-header -->
-
-				<?php if ( cambium_has_post_edit_link() ) : ?>
-				<div class="entry-meta entry-meta-header-after">
-					<?php cambium_post_edit_link(); ?>
-				</div><!-- .entry-meta -->
-				<?php endif; ?>
-			</div><!-- .entry-header-wrapper -->
-
 			<div class="entry-content">
 				<?php the_content(); ?>
 				<?php

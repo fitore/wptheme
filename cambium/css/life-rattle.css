@@ -3,8 +3,25 @@
  * Description: Used to style custom Life Rattle theme
  */
 
-body {
+body, p {
     background: white !important;
+    font-size: 1rem !important;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .site-header .container {
+        max-width: 95% !important;
+        min-width: auto;
+    }
+}
+
+.wp-custom-logo .site-header {
+    min-height: auto !important;
+    padding: 1.125rem 0 !important;
+}
+
+.site-footer .site-info {
+    padding: 1rem !important;
 }
 
 .lr-breadcrumbs {
@@ -14,15 +31,26 @@ body {
 }
 
 .lr-site-content a {
+    color: #020202 !important;
     text-decoration: underline;
 }
+
 .lr-site-content a:hover,
 .lr-site-content a:focus {
+    color: #2d93ff !important;
     text-decoration: none;
+}
+
+.lr-site-content .post-wrapper-archive {
+    justify-content: space-evenly;
 }
 
 .lr-site-content .post-wrapper-archive .post-wrapper-hentry {
     border: 1px solid #f0f0f0;
+}
+
+.lr-site-content h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
 
 .lr-site-content,
@@ -49,22 +77,6 @@ body {
     display: flex;
     flex: 1 1 70%;
     margin: 0;
-}
-
-.lr-site-content .lcp_catlist {
-    list-style-type: none;
-    margin: 0;
-    flex: 1 1 270px;
-    padding: 0 1.5rem 0 0;
-}
-
-.lr-site-content .lcp_catlist li {
-    margin: 0 0 2rem 0;
-}
-
-.lr-site-content .lcp_catlist .catdate {
-    font-size: 0.8rem;
-    font-weight: bold;
 }
 
  .lr-post-content p {
@@ -170,3 +182,67 @@ body {
     height: auto;
     padding: 0;
 }
+
+
+/** Plugins **/
+
+.lr-site-content .lcp_catlist {
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+.lr-site-content .lr-catlinkHeading,
+.lr-site-content .lcp_catlist h3 {
+    border-bottom: 1px solid #000;
+    margin: 1rem 0 0 0;
+    padding-bottom: 0.5rem;
+}
+
+.lr-site-content .lcp_catlist h3 {
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+}
+
+.lr-site-content .lr-catlinkHeading a {
+    text-decoration: none;
+}
+
+.lr-site-content .lcp_catlist li {
+    border: 1px solid #f0f0f0;
+    flex: 1 1 250px;
+    margin: 0 1rem 1rem 0;
+    padding: 1rem;
+}
+
+.lr-site-content .lcp_catlist.lr-catlist-pages li {
+    border: none;
+    flex-basis: auto;
+    padding: 1rem 0;
+}
+
+.lr-site-content .lcp_catlist .lr-catlink-page {
+    flex: 1 1 auto;
+}
+
+.lr-site-content .lcp_catlist .catdate {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.lr-site-content .lcp_paginator {
+    margin: 0;
+}
+
+.lr-site-content .lcp_paginator li {
+    border: 1px solid #f0f0f0;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.3rem;
+}
+
+

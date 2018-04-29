@@ -17,7 +17,9 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<div id="page" class="site-wrapper site">
+<div id="page" class="site-wrapper site lr-site">
+
+    <?php get_template_part('liferattle-templates/liferattle-breadcrumbs'); ?>
 
 	<?php
 	// Site Header
@@ -25,4 +27,3 @@
 	?>
 
 	<div id="content" class="site-content lr-site-content">
-        <?php get_template_part('liferattle-templates/liferattle-breadcrumbs'); ?>

@@ -26,6 +26,8 @@
 
 					<?php get_template_part('liferattle-templates/liferattle-podcastmeta'); ?>
 
+					<?php get_template_part('liferattle-templates/liferattle-eventmeta'); ?>
+
 				</div><!-- .entry-meta -->
 			</div><!-- .entry-header-wrapper -->
 
@@ -33,7 +35,6 @@
 				<?php the_content(); ?>
 
 				<?php get_template_part('liferattle-templates/liferattle-storyinfo'); ?>
-				<?php get_template_part('liferattle-templates/liferattle-writerbio'); ?>
 			</div><!-- .entry-content -->
 
 

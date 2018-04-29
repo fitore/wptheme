@@ -24,10 +24,36 @@ body, p {
     padding: 1rem !important;
 }
 
-.lr-breadcrumbs {
+.lr-site .lr-subnav {
+    background-color: #f0f0f0;
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.lr-site .lr-subnav .lr-breadcrumbs {
+    align-self: center;
+    flex-grow: 3;
     font-size: 0.8rem;
     max-width: 85%;
-    margin: 1rem auto;
+}
+
+.lr-site-content .lr-container-heading,
+.lr-site-content h3.lr-container-heading {
+    margin-bottom: 1rem;
+}
+
+.lr-site .lr-subnav .search-form {
+
+}
+
+.lr-site .lr-subnav .search-form .search-submit {
+    background-color: #000;
+    padding: 0.5rem 1rem;
+}
+
+.lr-site .lr-subnav .search-form .search-submit,
+.lr-site .lr-subnav .search-form .search-field {
+    height: 30px;
 }
 
 .lr-site-content a {
@@ -41,15 +67,23 @@ body, p {
     text-decoration: none;
 }
 
+.lr-site-content .post-wrapper-hentry {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .lr-site-content .post-wrapper-archive {
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .lr-site-content .post-wrapper-archive .post-wrapper-hentry {
     border: 1px solid #f0f0f0;
+    margin-right: 1rem !important;
+    padding: 1rem !important;
 }
 
 .lr-site-content h1, h2, h3, h4, h5, h6 {
+    color: #999999 !important;
     font-weight: bold;
 }
 
@@ -183,6 +217,13 @@ body, p {
     padding: 0;
 }
 
+.site-header-menu-responsive.show .lr-menu-events a:hover,
+.site-header-menu-responsive.show .lr-menu-festival a:hover,
+.site-header-menu-responsive.show .lr-menu-radio a:hover,
+.site-header-menu-responsive.show .lr-menu-writers a:hover,
+.site-header-menu-responsive.show .lr-menu-publishing a:hover {
+    opacity: 0.5;
+}
 
 /** Plugins **/
 
@@ -197,7 +238,7 @@ body, p {
 
 .lr-site-content .lr-catlinkHeading,
 .lr-site-content .lcp_catlist h3 {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #DDD;
     margin: 1rem 0 0 0;
     padding-bottom: 0.5rem;
 }
@@ -208,8 +249,10 @@ body, p {
 }
 
 .lr-site-content .lr-catlinkHeading a {
+    color: #999999 !important;
     text-decoration: none;
 }
+
 
 .lr-site-content .lcp_catlist li {
     border: 1px solid #f0f0f0;

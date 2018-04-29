@@ -1,16 +1,34 @@
-<h2>About Life Rattle Press</h2>
-Through Life Rattle Press and the Life Rattle radio program, Life Rattle searches out, edits, records, broadcasts and publishes experience based prose by new writers from a variety of communities in the Toronto area. <a href="http://localhost:8888/wordpress/about/">Read more &raquo;</a>
-
-&nbsp;
+<h2>About Us</h2>
+Through Life Rattle Press and the Life Rattle radio program, Life Rattle searches out, edits, records, broadcasts and publishes experience based prose by new writers from a variety of communities in the Toronto area. <a href="http://localhost:8888/wordpress/about/">Read more »</a>
 
 [catlist name=podcast date=yes date_tag=p date_class=catdate orderby=date pagination=yes numberposts=4 excerpt=yes excerpt_size=25 catlink=yes catlink_string="Recent Podcasts" catlink_tag=h3 catlink_class="lr-catlinkHeading"]
 
-&nbsp;
-
 [catlist name=book date=yes date_tag=p date_class=catdate orderby=date pagination=yes numberposts=4 excerpt=yes excerpt_size=25 catlink=yes catlink_string="Recent Books" catlink_tag=h3 catlink_class="lr-catlinkHeading"]
 
-&nbsp;
 
-[catlist post_type="page" class="lcp_catlist lr-catlist-pages" title_class="lr-catlink-page" conditional_title="More from Us"]
+<h3 class="lr-catlinkHeading lr-container-heading">More from us</h3>
+<div class="container">
+<div class="row">
 
-&nbsp;
+<div class="col-sm lr-col">
+<a href="http://localhost:8888/wordpress/publishing/">Life Rattle Press</a>
+<p>Life Rattle Press publishes and markets on a small-scale, non-profit basis, high quality editions of new writing: collections by single or multiple authors, collections of the stories read at the annual Totally Unknown Writers Festival, and collections of stories published by new publishers.</p>
+<a href="/publishing">Read more »</a>
+</div>
+
+<div class="col-sm lr-col">
+<a href="http://localhost:8888/wordpress/festival/">Festival</a>
+<p>Since 1992, Life Rattle has been staging the "Totally Unknown Writers Festival" featuring new writers who read their work before a live audience, carrying on the oral tradition of storytelling.</p>
+<a href="/festival">Read more »</a>
+</div>
+
+
+<div class="col-sm lr-col">
+<p><a href="http://localhost:8888/wordpress/events/">Events</a>
+<p>In addition to the annual "Totally Unknown Writers Festival", Life Rattle Press holds a celebratory book launch for new publications. These celebrations bring the authors and the community together in an evening of great storytelling.</p>
+<a href="/events">Read more »</a>
+</div>
+
+
+</div>
+</div>

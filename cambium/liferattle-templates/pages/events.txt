@@ -1,0 +1,4 @@
+<h1>Events</h1>
+In addition to the annual TOTALLY UNKNOWN WRITERS FESTIVAL, Life Rattle Press holds a celebratory book launch for new publications. These celebrations bring the authors and the community together in an evening of great storytelling.
+
+[catlist name=event date=yes date_tag=p date_class=catdate orderby=date pagination=yes numberposts=4 excerpt=yes excerpt_size=25 catlink=yes catlink_string="Recent Events" catlink_tag=h3 catlink_class="lr-catlinkHeading"]

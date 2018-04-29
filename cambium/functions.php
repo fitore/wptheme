@@ -195,6 +195,7 @@ require get_template_directory() . '/inc/custom-header.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
- * Search custom fields additions.
+ * Life Rattle custom functionality.
  */
 require get_template_directory() . '/liferattle-templates/liferattle-search.php';
+require get_template_directory() . '/liferattle-templates/liferattle-coauthors.php';

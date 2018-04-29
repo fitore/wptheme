@@ -4,6 +4,8 @@
  *
  * @package Cambium
  */
+
+global $post;
 ?>
 
 <div class="entry-author lr-author">
@@ -32,7 +34,6 @@
 	<div class="author-biowrapper">
 		<?php if( function_exists( 'get_coauthors' ) ) {
 
-			global $post;
 			$author_id = $post->post_author;
 			foreach( get_coauthors() as $coauthor ) { ?>
 			    <p class="author-bio"><?php echo $coauthor->description; ?></p>

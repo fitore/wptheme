@@ -27,17 +27,23 @@ global $post;
 		?>
 
 	<div class="author-heading">
-		<h3 class="lr-innerHeading lr-sectionHeading">Writer details</h3>
-		<h2 class="author-title"><?php echo $author ?></h2>
+		<h3 class="lr-innerHeading lr-sectionHeading">Writer information</h3>
+		<div class="author-title">Author(s): <?php echo $author ?></div>
 	</div><!-- .author-heading -->
 
 	<div class="author-biowrapper">
 		<?php if( function_exists( 'get_coauthors' ) ) {
 
 			$author_id = $post->post_author;
-			foreach( get_coauthors() as $coauthor ) { ?>
-			    <p class="author-bio"><?php echo $coauthor->description; ?></p>
+			foreach( get_coauthors() as $coauthor ) {
+                if( $coauthor->description ) {
+                ?>
+			    <div class="author-bio">
+                    <p class="author-bio-title">Biography: <?php echo $coauthor->display_name ?> </p>
+                    <p><?php echo $coauthor->description; ?></p>
+                </div>
 			<?php }
+            }
 
 		} else { ?>
 

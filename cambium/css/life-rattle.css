@@ -29,9 +29,10 @@ p {
 
 .wp-custom-logo .site-header {
     border: none;
-    box-shadow: 0 2px 3px rgba(150,150,150,.1);
+    box-shadow: 0 1px 3px rgba(200,200,200,0.1);
     min-height: auto !important;
-    padding: 1.125rem 0 !important;
+    margin-bottom: 0;
+    padding: 0.5rem 0 !important;
 }
 
 .site-footer .site-info {
@@ -106,7 +107,7 @@ p {
 }
 
 .lr-site-content h2, h3, h4, h5, h6 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
 }
 
 .lr-site-content .widget-title,
@@ -203,15 +204,25 @@ p {
     padding-bottom: 0.5rem;
 }
 
-.lr-author {
-    margin: 0;
+.lr-site-content .lr-author {
+    margin: 1rem 0 0 0;
+    padding: 0 !important;
 }
 
-.lr-author .author-heading {
+.lr-site-content .lr-author .author-heading {
     padding: 0 !important;
     width: 100% !important;
 }
 
+.lr-site-content .lr-author .author-heading .author-title {
+    font-weight: normal;
+    margin: 1rem 0 0 0;
+}
+.lr-site-content .lr-author .author-bio-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem !important;
+}
 
 .header-menu .lr-menu-events a,
 .header-menu .lr-menu-festival a,
@@ -277,7 +288,8 @@ p {
 }
 
 .lr-site-content .lr-catlinkHeading,
-.lr-site-content .lcp_catlist h3 {
+.lr-site-content .lcp_catlist h3,
+.lr-site-content .lr-author .author-heading .lr-innerHeading {
     border-bottom: 1px solid #DDD;
     font-size: 2rem !important;
     margin: 1.5rem 0 0.5rem 0 !important;

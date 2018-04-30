@@ -41,7 +41,7 @@ get_header(); ?>
 
 					<?php if ( have_posts() ) : ?>
 
-						<div id="post-wrapper" class="post-wrapper post-wrapper-archive">
+						<div id="post-wrapper" class="post-wrapper post-wrapper-archive lr-post-wrapper-archive">
 						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>
 

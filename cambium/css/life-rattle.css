@@ -3,8 +3,20 @@
  * Description: Used to style custom Life Rattle theme
  */
 
-body, p {
+@font-face {
+    font-family: 'Geometr231';
+    src: url('../fonts/geo231lt-webfont.woff2') format('woff2'),
+         url('../fonts/geo231lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
     background: white !important;
+    font-size: 1rem !important;
+}
+
+p {
     font-size: 1rem !important;
 }
 
@@ -16,6 +28,8 @@ body, p {
 }
 
 .wp-custom-logo .site-header {
+    border: none;
+    box-shadow: 0 2px 3px rgba(150,150,150,.1);
     min-height: auto !important;
     padding: 1.125rem 0 !important;
 }
@@ -25,7 +39,7 @@ body, p {
 }
 
 .lr-site .lr-subnav {
-    background-color: #f0f0f0;
+    background-color: #F7F7F7;
     display: flex;
     padding: 0.5rem 1rem;
 }
@@ -83,12 +97,26 @@ body, p {
 }
 
 .lr-site-content h1, h2, h3, h4, h5, h6 {
-    color: #999999 !important;
-    font-weight: bold;
+    font-family: 'Geometr231', Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+.lr-site-content h1 {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+}
+
+.lr-site-content h2, h3, h4, h5, h6 {
+    font-size: 2.5rem !important;
+}
+
+.lr-site-content .widget-title,
+.lr-site-content .lr-post-wrapper-archive .entry-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: normal !important;
 }
 
 .lr-site-content,
-.lr-site-content h1, h2, h3, h4, h5, h6,
 .lr-site-content p {
     font-family: Verdana, Arial, Helvetica, sans-serif !important;
 }
@@ -111,6 +139,13 @@ body, p {
     display: flex;
     flex: 1 1 70%;
     margin: 0;
+}
+
+.lr-site-content .lr-postwrapper.post-wrapper-single-page .post-wrapper-hentry {
+    padding-left: 1rem !important;
+}
+.lr-site-content .post-wrapper-single .post-wrapper-hentry {
+    padding-left: 0 !important;
 }
 
  .lr-post-content p {
@@ -186,6 +221,7 @@ body, p {
     background-repeat: no-repeat;
     background-position: center 0;
     display: block;
+    font-family: 'Geometr231', Verdana, Arial, sans-serif;
     height: 60px;
     padding-top: 50px;
 }
@@ -217,12 +253,16 @@ body, p {
     padding: 0;
 }
 
-.site-header-menu-responsive.show .lr-menu-events a:hover,
-.site-header-menu-responsive.show .lr-menu-festival a:hover,
-.site-header-menu-responsive.show .lr-menu-radio a:hover,
-.site-header-menu-responsive.show .lr-menu-writers a:hover,
-.site-header-menu-responsive.show .lr-menu-publishing a:hover {
-    opacity: 0.5;
+
+.sf-menu > li > a:hover,
+.sf-menu > li > a:focus,
+.sf-menu > li > a:active {
+    color: #2d93ff !important;
+    text-decoration: underline;
+}
+
+.sf-menu > li.current-menu-item > a {
+    opacity: 0.6;
 }
 
 /** Plugins **/
@@ -239,7 +279,8 @@ body, p {
 .lr-site-content .lr-catlinkHeading,
 .lr-site-content .lcp_catlist h3 {
     border-bottom: 1px solid #DDD;
-    margin: 1rem 0 0 0;
+    font-size: 2rem !important;
+    margin: 1.5rem 0 0.5rem 0 !important;
     padding-bottom: 0.5rem;
 }
 
@@ -249,16 +290,19 @@ body, p {
 }
 
 .lr-site-content .lr-catlinkHeading a {
-    color: #999999 !important;
     text-decoration: none;
 }
 
 
 .lr-site-content .lcp_catlist li {
-    border: 1px solid #f0f0f0;
+    background: #FEFEFE;
     flex: 1 1 250px;
     margin: 0 1rem 1rem 0;
     padding: 1rem;
+}
+
+.lr-site-content .lcp_catlist li:last-child {
+    margin-right: 0;
 }
 
 .lr-site-content .lcp_catlist.lr-catlist-pages li {
@@ -272,6 +316,7 @@ body, p {
 }
 
 .lr-site-content .lcp_catlist .catdate {
+    background: #FEFEFE;
     font-size: 0.8rem;
     font-weight: bold;
     margin: 0.5rem 0;
